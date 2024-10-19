@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# News App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Description
+This is a simple **News App** built using **React Native** and **Expo**. The app fetches real-time news from **NewsAPI** and presents it in a vertical swipe layout. It supports **dark mode**, and users can **like**, **dislike**, or **share** news articles. Users can explore more details through a **Read More** modal.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
+- **Live news** fetched from BBC News using NewsAPI.
+- **Vertical swipe** for seamless article navigation.
+- **Dark mode** for improved reading experience.
+- **Like/Dislike** and **share** buttons for every article.
+- **Read More** modal with detailed content.
+- **Swipe hints** for navigating through articles.
+
+---
+
+## Prerequisites
+Ensure the following tools are installed:
+1. **Node.js** - [Download](https://nodejs.org/)
+2. **Expo CLI** - Install using:
+   
+   ```bash
+   npm install -g expo-cli
+3. **Expo Go** - Expo Go App - Install on your mobile device (Android).
+   
+---
+
+### Installation & Setup
+Clone the Repository
+
+   ```bash
+   git clone https://github.com/vanam30/React-Native_News_App.git
+   ```
+Install Dependencies
 
    ```bash
    npm install
    ```
-
-2. Start the app
+Start the Project
 
    ```bash
-    npx expo start
+   npm start
    ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Running the App on a Device
+You can clone the repo, then:
+Run the following commands:
+   ```bash
+   npm install
+   npm start
+   ```
+1. You can just open the Expo Go App on your Android device.
+2. Scan the QR code displayed in the terminal or browser after running npm start.
+3. The app will launch directly on your device.
